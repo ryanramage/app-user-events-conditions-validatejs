@@ -1,0 +1,25 @@
+{
+  "name": "app-user-events-conditions-validatejs",
+  "version": "1.0.0",
+  "description": "WIP - nothing to see here",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "validate.js": "^0.8.0"
+  },
+  "devDependencies": {
+    "standard": "^4.5.4",
+    "tap": "^0.4.12",
+    "tape": "^2.14.0"
+  },
+  "scripts": {
+    "test": "standard && ./node_modules/.bin/tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ryanramage/app-user-events-conditions-validatejs.git"
+  },
+  "bugs": {
+    "url": "http://github.com/ryanramage/app-user-events-conditions-validatejs/issues"
+  },
+  "homepage": "http://github.com/ryanramage/app-user-events-conditions-validatejs"
+}
